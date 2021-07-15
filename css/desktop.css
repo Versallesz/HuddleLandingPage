@@ -1,0 +1,29 @@
+body {
+  background-image: url(../images/bg-desktop.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.landing-content {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.main-illustration {
+}
+.main-illustration img {
+  max-width: 500px;
+}
+
+.main-content {
+  width: 50%;
+  text-align: left;
+  align-items: center;
+  margin: 30px;
+}
+
+.social-media {
+  text-align: right;
+}
