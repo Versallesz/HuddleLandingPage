@@ -1,10 +1,14 @@
 body {
   background-image: url(../images/bg-desktop.svg);
+  min-height: 100vh;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 
 .header-logo {
   margin-left: 100px;
-  width: 152px;
+  width: 155px;
+  margin-top: 7%;
 }
 
 main {
@@ -36,16 +40,26 @@ main {
   font-size: 2.9rem;
 }
 
+.btn-register {
+  font-size: 1.4rem;
+}
+
 .social-media {
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: flex-end;
   text-decoration: none;
   list-style: none;
   text-align: right;
-  height: 30px;
+  margin-top: 48px;
 }
 
 .social-media li {
   margin: 10px;
+}
+
+.social-media a {
+  font-size: 1.4rem;
+  height: 34px;
+  width: 34px;
 }

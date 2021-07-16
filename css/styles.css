@@ -24,6 +24,8 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .landing-content {
@@ -71,9 +73,9 @@ body {
 .btn-register {
   color: var(--primary-violet);
   background-color: white;
-  padding: 10px;
-  width: 180px;
-  border-radius: 20px;
+  padding: 11px;
+  width: 170px;
+  border-radius: 25px;
   font-family: "Poppins", sans-serif;
   font-size: 1.25rem;
   border: none;
@@ -83,12 +85,17 @@ body {
   -moz-box-shadow: 1px 7px 9px -3px rgba(88, 64, 140, 1);
 }
 
+.btn-register:hover {
+  background-color: var(--soft-magenta);
+  cursor: pointer;
+}
+
 .social-media {
   display: flex;
   justify-content: center;
   text-decoration: none;
   list-style: none;
-  margin-top: 6%;
+  margin-top: 20px;
 }
 
 .social-media a {
@@ -103,4 +110,10 @@ body {
   align-items: center;
   text-decoration: none;
   list-style: none;
+}
+
+.social-media a:hover {
+  cursor: pointer;
+  color: var(--soft-magenta);
+  border: 1px solid var(--soft-magenta);
 }
